@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 id="title">Cadastre seu time</h1>
+<div class="btnCadastro">
+        <button class="btnCadastrar" onclick="cadastrarDado()">Qual a modalidade do time</button>
+        <button class="btnCadastrar" onclick="cadastrarDado()">Escolha o nome do time</button>
+        <button class="btnCadastrar" onclick="cadastrarDado()">Número de jogadres</button>
+        <button id="btnAdd" onclick="listarDados()">
+           ADICIONAR
+            <i class="fa-thin fa-plus"></i>
+        </button>
+    </div>
+        <button id="btnEdit"  onclick="editarDado()">
+            <i class="fa-solid fa-pen">Editar dado</i>
+        </button>
+
+        <button id="btnDelete" onclick="deletarDado()"><i class="fa-solid fa-xmark">Deletar dado</i></button>
+
+        <div id="resultado"></div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+```

@@ -58,6 +58,15 @@ border-radius: 9px;
     border-bottom: 2px solid #C0C0C0;
  }
 
+#fa-moon{
+display: flex;
+justify-content: end;
+cursor: pointer;
+}
+
+
+
+
 button {
     margin: 10px;
     padding: 10px 20px;

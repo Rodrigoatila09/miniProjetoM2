@@ -69,4 +69,27 @@ if (index >= 0 && index < this.dados.length) { this.dados[index]=novoDado; retur
         } else {
         alert("Operação cancelada.");
         }
+        };
+
+        modoDark = true;
+        function modoEscuro(){
+        const $body = document.getElementsByTagName('body')[0];
+        const divContainer = document.getElementsByClassName('container')[0];
+        const lua = document.getElementById('fa-moon')[0];
+       if (modoDark = !modoDark) {
+    $body.style.backgroundColor = '#1d1e21';
+    divContainer.style.backgroundColor ='#24262a';
+    $body.style.color = 'white';
+       } else{
+        $body.style.backgroundColor = ' #f4f4f4';
+        divContainer.style.backgroundColor ='#fff';
+        $body.style.color = 'black'
+       }
+
+
         }
+
+//         if (modoDark = !modoDark) {
+//             $body.style.backgroundColor = "#f4f4f4"
+// divContainer.style.backgroundColor = "#fff;"
+// lua.style.color = "white"

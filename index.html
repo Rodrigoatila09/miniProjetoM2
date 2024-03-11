@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/style/style.css">
         <title>Cadastro</title>
-    <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <button class="btnCadastrar" onclick="cadastrarDado()">Escolha o nome do time</button>
         <button class="btnCadastrar" onclick="cadastrarDado()">Número de jogadres</button>
         <button id="btnAdd" onclick="listarDados()">
-           Adicionar
+           Adicionar/Salvar
             <i class="fa-thin fa-plus"></i>
         </button>
     </div>
@@ -29,14 +29,13 @@
             Editar dado <i class="fa-solid fa-pen"></i>
         </button>
 
-        <button id="btnDelete" onclick="deletarDado()">Deletar dado<i class="fa-solid fa-xmark"></i></button>
+        <button id="btnDelete" onclick="deletarDado()">
+            Deletar dado <i class="fas fa-xmark"></i>
+        </button>
 
         <div id="resultado"></div>
-
     </div>
-
     <script src="/js/script.js"></script>
 </body>
 
 </html>
-```
